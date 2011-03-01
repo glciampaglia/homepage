@@ -1,4 +1,4 @@
-
+/* Author: Giovanni Luca Ciampaglia <ciampagg@usi.ch> */
 
 body {
     font-family: Georgia, Cambria, "Linux Libertine", FreeSerif, "Nimbus Roman No9 L", serif;
@@ -7,6 +7,8 @@ body {
     width : 100%;
     line-height : 1.5;
 }
+
+/* the main area */
 
 .container {
     width : 100%;
@@ -24,6 +26,8 @@ body {
     padding-left : 0em;
 }
 
+/* headings */
+
 h1, h2, h3, h4, h5, h6 {
     width : 700px;
     text-align : left;
@@ -39,6 +43,8 @@ h1 {
     margin-left : 14px;
     font-size : 2.5em;
 }
+
+/* inlining an IMG along a bunch of paragraphs */
 
 .inline {
     width : 100%;
@@ -67,6 +73,8 @@ h1 {
     margin-top : 0 !important;
 }
 
+/* inline lists */
+
 ul.inline-list {
     padding : 0;
 }
@@ -78,6 +86,20 @@ ul.inline-list {
     margin : 0;
     padding : 0 2em 0 0;
 }
+
+/* links */
+
+a {
+    color : #854545;
+    text-decoration : none;
+}
+
+a:hover {
+    color : #000;
+    background-color : #EBD8D9;
+}
+
+/* footer */
 
 #footer {
     font-size : 10pt;
