@@ -1,0 +1,95 @@
+
+
+body {
+    font-family: Georgia, Cambria, "Linux Libertine", FreeSerif, "Nimbus Roman No9 L", serif;
+    font-size : 12pt;
+    height : 100%;
+    width : 100%;
+    line-height : 1.5;
+}
+
+.container {
+    width : 100%;
+    margin : 0;
+    text-align : center;
+}
+
+.container p, ul { 
+    width : 700px;
+    text-align : left;
+    margin : 1em auto !important;
+}
+
+.container ul {
+    padding-left : 0em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    width : 700px;
+    text-align : left;
+    margin : 2em auto !important;
+
+}
+
+h3 {
+    margin-bottom : 1em !important;
+}
+
+h1 {
+    margin-left : 14px;
+}
+
+.inline {
+    width : 100%;
+}
+
+.inline-block {
+    display : inline-block;
+    vertical-align : top;
+}
+
+.inline-block p {
+    width : 350px;
+}
+
+.inline-block h3 {
+    width : 350px;
+}
+
+.inline-img {
+    position : relative;
+    left : 0px;
+    margin : 0 0 0 2em;
+}
+
+#first-heading {
+    margin-top : 0 !important;
+}
+
+ul.inline-list {
+    padding : 0;
+}
+
+.inline-list li {
+    display : inline-block;
+    vertical-align : top;
+    width : 195px;
+    margin : 0;
+    padding : 0 2em 0 0;
+}
+
+#footer {
+    margin-top : 4em;
+    margin-bottom : 0;
+}
+
+#footer ul {
+    text-align : center;
+    width : 100%;
+    margin : 0 !important;
+}
+
+#footer li {
+    width : 250px;
+    margin : 0 auto !important;
+}
