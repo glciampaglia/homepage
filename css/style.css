@@ -80,8 +80,9 @@ ul.inline-list {
 }
 
 #footer {
+    font-size : 10pt;
     margin-top : 4em;
-    margin-bottom : 0;
+    margin-bottom : 0.5em;
 }
 
 #footer ul {
