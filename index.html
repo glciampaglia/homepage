@@ -7,7 +7,6 @@
         <!--[if lt IE 8]><link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
         <link rel="stylesheet" href="css/blueprint/src/typography.css" type="text/css" media="print">
         <link rel='stylesheet' href='css/style.css' type='text/css'>
-        <script type="text/javascript" src="lib/validator.js"></script>
     </head>
 
     <body> 
@@ -64,7 +63,14 @@
                     -->
                     </script></li>
                     <li>&copy; 2011 Giovanni Luca Ciampaglia.</li>
-                    <li>Validate: <a href="http://validator.w3.org/check/referer">markup</a>, <a href="http://jigsaw.w3.org/css-validator/check/referer">css</a>, <a href="http://validator.w3.org/checklink/?uri=referer">links</a>.</li>
+                    <li>Validate: <a href="http://validator.w3.org/check/referer">markup</a>, <a href="http://jigsaw.w3.org/css-validator/check/referer">css</a>, <a id="checklink" href="http://validator.w3.org/checklink?uri=%s">links</a>.</li>
+                    <script>
+                        <!--
+                        // ugly hack, I know.
+                        var anchor = document.getElementById("checklink");
+                        anchor.href = anchor.href.replace(/%s/,document.URL);
+                        -->
+                    </script>
                 </ul>
             </div>
 
