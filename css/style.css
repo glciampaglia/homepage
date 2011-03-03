@@ -9,11 +9,23 @@ body {
     background-color : #FFF;
 }
 
+/*  sepia matching picture */
+
 /* margins and size of main container */
 
 .container > * {
     width : 700px;
     margin : 0 auto;
+}
+
+.textbg {
+    width : 850px;
+    background-color : #FBFBF4;
+    margin : 0 auto;
+    text-align : center;
+    border-width : 0 3px;
+    border-style : solid;
+    border-color : #222;
 }
 
 .container {
