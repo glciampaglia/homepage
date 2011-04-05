@@ -2,12 +2,16 @@
 
 body {
     font-family: Georgia, "Linux Libertine O", "Nimbus Roman No9 L", FreeSerif, serif;
-    font-size : 12pt;
+    font-size : 14px;
     height : 100%;
     width : 100%;
     line-height : 1.5;
     background-color : #FFF;
 }
+
+.dings {
+   font-size : 250%;
+} 
 
 /*  sepia matching picture */
 
@@ -121,7 +125,7 @@ a.pdf {
 /* footer block containing a list with in-line elements */
 
 #footer {
-    font-size : 10pt;
+    font-size : 12px;
     margin-top : 4em;
     margin-bottom : 0.5em;
 }
