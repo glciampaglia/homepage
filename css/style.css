@@ -76,18 +76,13 @@ h1 {
 
 .inline { 
     text-align : left;
-}
-
-.inline-block {
-    display : inline-block;
     vertical-align : top;
-    width : 350px;
 }
 
-.inline-img {
-    position : relative;
-    right : -45px;
+.inline > p {
+    width : 90%;
 }
+
 
 #first-heading {
     margin-top : 0 !important;
