@@ -1,3 +1,4 @@
 #!/bin/bash
-URL=euler.inf.unisi.ch
-rsync -aP --delete . $URL:public_html --exclude=.git --exclude=.\*.swp
+URL=mercury
+DIR=www
+rsync -aP --delete . ${URL}:${DIR} --exclude=$0 --exclude=.git --exclude=.\*.swp
