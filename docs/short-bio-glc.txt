@@ -1,9 +1,0 @@
-Dr. Giovanni Luca Ciampaglia is a young researcher whose scientific interests
-are online collective behavior, social production, and social information
-processing. He holds a Laurea (M.Sc. equivalent) in Computer Science from
-Sapienza University of Rome, and a Ph.D. in Informatics from the University of
-Lugano (Switzerland), obtained under the joint supervision of Luca Maria
-Gambardella (IDSIA), Alberto Vancheri (SUPSI), and Paolo Giordano (TU Wien). His
-research has been supported by Swiss National Science Foundation and he has been
-a visiting scientist at the Swiss Federal Institute of Technology in Zurich. He
-is currently based in Zurich, Switzerland.
